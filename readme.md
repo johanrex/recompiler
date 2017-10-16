@@ -14,7 +14,7 @@ The idea is simple: *what if you could take the Xbox360 game and run it on your 
 
 - **Inlining of graphics/kernel functions** - Some of the functions used while compiling the executable were inlined directly into the compiled code making it much harder to write a simple API level wrapper. This kills the dream of making "function level" wrapper where we could just go and wrap the "d3d->DrawPrimitive" call directly. Nope, this is not going ot happen.
 
-Forunatelly, every problem is solvable and the answard is ***YES*** in principle. If you want to know how, keep reading :)
+Fortunately, every problem is solvable and the answard is ***YES*** in principle. If you want to know how, keep reading :)
 
 ## Current state of the project
 
